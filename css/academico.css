@@ -1,0 +1,108 @@
+/* Estilos para mobiles en orientación horizontal */
+.formaciones{
+    padding: 5vmin;
+    background: var(--rosado);
+}
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+
+.formacion__titulo{
+    color: var(--rosa);
+    font-size: 6vmin;
+    font-weight: 700;
+    padding-bottom: 8vmin;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formacion__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.formacion__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 3vmin 3vmin 0;
+    padding: 8vmin;
+
+    width: 8rem;
+    height: 8rem;
+    margin: 5vmin;
+    border-radius: 6vmin;
+    background: var(--crema);
+    background-origin: border-box;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.formacion__item:hover{
+    transform: scale(1.1);
+    border-radius: 6vmin;
+    background: var(--crema);
+    box-shadow: 0 2px 0px 2px var(--rosa);
+}
+
+.formacion__item--img{
+    width: 25vmin;
+    height: 25vmin;
+    padding-bottom: 4vmin;
+}
+
+.formacion__item--text{
+    font-weight: 500;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 3vmin;
+    padding-bottom: 3vmin;
+}
+.formacion__item--subtitulo{
+    font-weight: 100;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 2vmin;
+    font-size: 4vmin;
+}
+
+/* Estilos para tablets en orientación horizontal */
+@media (min-height: 768px) and (max-height: 1024px) {
+    
+}
+
+
+/* Estilos para pantallas de escritorio */
+@media (min-width: 1025px){
+    .formacion__titulo{
+        font-size: 5vmin;
+    }
+
+    .formacion__item{
+        margin: 3vmin 2vmin;
+        padding: 8vmin 5vmin;
+        width: 18vmin;
+        height: 20vmin;
+
+    }
+
+    .formacion__item--img{
+        width: 10vmin;
+        height: 10vmin;
+    }
+
+    .formacion__item--subtitulo{
+        font-size: 2vmin;
+        white-space: nowrap;
+    }
+
+}

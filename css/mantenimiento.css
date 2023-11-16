@@ -1,0 +1,119 @@
+body {
+    font-family: var(--poppins);
+    background: var(--crema);
+    height: 100vh;
+}
+
+.mantenimiento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15vmin;
+    font-family: var(--concertOne);
+    font-size: 2rem; 
+}
+
+.mantenimiento__img {
+    max-width: 100%;
+    max-height: auto; /* Cambiado para ajustar la altura automáticamente */
+}
+
+.mantenimiento__contenido {
+    color: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem; /* Cambiado para espacio superior */
+    text-align: center; /* Centrar el texto en dispositivos móviles */
+}
+
+.mantenimiento__boton{
+    padding-top: 4rem;
+}
+
+.mantenimiento__boton--link{
+    background-color: var(--rosa);
+    border-radius: 5px;
+    font-size: 6vmin;
+    padding: 4vmin 5vmin;
+    color: var(--blanco);
+}
+
+.mantenimiento__boton--link:hover{
+    background-color: var(--rosaHover);
+}
+
+/* Estilos para pantallas de escritorio */
+@media (min-width: 1025px) {
+    .mantenimiento {
+        flex-direction: row;
+    }
+
+    .mantenimiento__img {
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+
+    .mantenimiento__contenido {
+        margin-left: 2rem;
+        text-align: left; /* Alineación izquierda en dispositivos de escritorio */
+    }
+
+    .mantenimiento__boton{
+        padding-top: 2rem;
+    }
+
+    .mantenimiento__boton--link{
+        font-size: 1.5rem;
+        padding: 2vmin 5vmin;
+    } 
+}
+
+
+/* .mantenimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15vmin;
+    font-family: var(--concertOne);
+    font-size: 2rem;
+    color: var(--rosa);
+}
+
+.mantenimiento__img{
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.mantenimiento__contenido{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.mantenimiento__boton{
+    padding-top: 2rem;
+}
+
+.mantenimiento__boton--link{
+    background-color: var(--rosa);
+    border-radius: 5px;
+    font-size: 3vmin;
+    padding: 2vmin 5vmin;
+    color: var(--blanco);
+} */
+
+/* Estilos para pantallas de escritorio */
+/* @media (min-width: 1025px) {
+    .mantenimiento__img{
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+
+    .mantenimiento__contenido{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+    }
+
+} */

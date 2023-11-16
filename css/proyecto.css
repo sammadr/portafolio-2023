@@ -1,0 +1,166 @@
+.proyecto{
+    background: var(--crema);
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto__titulo--principal{
+    color: var(--rosa);
+    font-size: 6vmin;
+    font-weight: 700;
+    padding-bottom: 8vmin;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20vw;
+}
+
+.proyecto__contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto__img{
+    width: 85vw;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.proyecto__contenido{
+    margin: 0 1rem 0 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.proyecto__titulo{
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--rosa);
+    width: 82%;
+    font-size: 5vw;
+    color: var(--rosaHover);
+}
+
+.proyecto__texto{
+    text-align: justify;
+    line-height: 150%;
+    padding: 0.5em 1em 0.5em 0;
+    font-size: 4vw;
+}
+
+.proyecto__descripcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    padding-right: 5rem;
+    border-radius: 3rem;
+}
+
+.proyecto__boton--link{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin: 0.5rem;
+    color: var(--blanco);
+    font-weight: 700;
+    font-size: 3vw;
+    width: 29vw;
+}
+
+.boton--repositorio{
+    color: var(--rosa);
+    outline: 2px solid var(--rosa);
+}
+.boton--repositorio:hover{
+    color: var(--blanco);
+    background: var(--rosaHover);
+    transform: scale(1.1);
+    outline: none;
+}
+
+.boton--demo{
+    background: var(--rosa);
+}
+.boton--demo:hover{
+    background: var(--rosaHover);
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+.proyecto__boton--link__img{
+    padding-left: 5vmin;
+    width: 5vw;
+}
+
+.proyecto__contenedor--desktop{
+    display: none;
+}
+
+
+
+/* Estilos para tablets en orientación horizontal */
+@media (min-height: 768px) and (max-height: 1024px) {
+    
+
+}
+
+/* Estilos para pantallas de escritorio */
+@media (min-width: 1025px){
+    .proyecto__contenedor--mobile{
+        display: none;
+    }
+
+    .proyecto__contenedor--desktop{
+        display: block;
+    }
+
+    .proyecto__titulo--principal{
+        font-size: 2.6em;
+        padding-top: 4rem;
+    }
+
+    .proyecto__contenedor{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .proyecto__img{
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .proyecto__titulo{
+        font-size: 1.90rem;
+        padding-top: 5vmin;
+        white-space: nowrap;
+    }
+
+    .proyecto--titulo{
+        padding-top: 6vmin;
+    }
+
+    .proyecto__texto{
+        font-size: 4vmin;
+    }
+
+    .proyecto__descripcion{
+        padding-right: 0;
+        
+    }
+
+    .proyecto__boton--link{
+        font-size: 3vmin;
+        width: 13vw;
+        margin: 2rem;
+    }
+
+    .proyecto__boton--link__img{
+        width: 1.5vw;
+        padding-right: 80vmin;
+    }
+}

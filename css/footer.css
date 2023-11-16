@@ -1,0 +1,22 @@
+.footer{
+    background-color: var(--rosado);
+    padding: 5vmin;
+    
+}
+
+.footer{
+    padding-left: 4rem;
+    font-weight: 700;
+    color: var(--blanco);
+}
+
+.footer__color{
+    color: var(--rosa);
+}
+
+/* Estilos para desktop en orientación horizontal */
+@media (min-width: 1025px){
+    .footer__contenido{
+        padding-left: 20vmin;
+    }
+}

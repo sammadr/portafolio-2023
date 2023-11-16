@@ -1,0 +1,54 @@
+/* Estilos para mobiles en orientación horizontal */
+.sobre{
+    background: var(--rosado);
+    padding: 15vmin 15vmin 2vmin 15vmin;
+}
+
+.sobre__contenedor{
+    box-shadow: 0px 4px 4px rgba(204, 23, 86, 0.35);
+    background: var(--crema);
+    border-radius: 2vmin;
+    margin: 3vmin;
+    padding: 5vmin;
+}
+
+.sobre__contenedor-descripcion{
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+}
+
+.sobre__titulo{
+    color: var(--rosa);
+    font-size: 6vmin;
+    font-weight: 700;
+    padding-bottom: 3vmin;
+    text-transform: uppercase;
+}
+
+
+/* Estilos para tablets en orientación horizontal */
+@media (min-height: 768px) and (max-height: 1024px) {
+    
+}
+
+/* Estilos para desktop en orientación horizontal */
+@media (min-width: 1025px){
+    .sobre__contenedor{
+        padding: 15vmin;
+    }
+
+    .sobre__titulo{
+        font-size: 2.6rem;
+    }
+
+    .sobre__parafo{
+        font-size: 3vmin;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url(../css/cabecera.css);
+@import url(../css/banner.css);
+@import url(../css/sobre.css);
+@import url(../css/skills.css);
+@import url(../css/sobre.css);
+@import url(../css/academico.css);
+@import url(../css/proyecto.css);
+@import url(../css/formulario.css);
+@import url(../css/footer.css);
+@import url(../css/mantenimiento.css);
+
+
+:root{
+    --crema: #f5f0ed;
+    --text: #091F31;
+    --gris: #595959;
+    --rosa: #CD1655;
+    --verde: #04D976;
+    --blanco: #ffffff;
+    --violet: #A557F2;
+    --rosado: #cc175659;
+    --naranja: #F26716;
+    --amarillo: #F2B950;
+    --azulClaro: #57D6F2;
+    --azulOscuro: #0583F2;
+
+    --rosaHover: #ec1963c8;
+    --verdeHover: rgba(4, 217, 118, 0.726);
+
+    --poppins: "Poppins";
+    --concertOne: "Concert One";
+}
+body{
+    color: var(--text);
+    font-family: var(--poppins);
+}
+
+
+
+/* Estilos para mobiles en orientación horizontal */
+
+
+/* Estilos para tablets en orientación horizontal */
+@media (min-height: 768px) and (max-height: 1280px) {
+
+}
+
+/* Estilos para desktop en orientación horizontal */
+@media (min-width: 1025px){
+    
+}
+
+
+
+
+
+
+
+

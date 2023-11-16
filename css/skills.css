@@ -1,0 +1,158 @@
+/* Estilos para mobiles en orientación horizontal */
+.skill{
+    background-color: var(--rosado);
+    padding: 2vmin;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.skills__titulo{
+    color: var(--rosa);
+    font-size: 6vmin;
+    font-weight: 700;
+    padding-bottom: 8vmin;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skills__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.skills__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 3vmin 3vmin 0;
+    padding: 8vmin;
+
+    width: 15vmin;
+    height: 15vmin;
+
+    border-radius: 6vmin;
+    background: var(--crema);
+    background-origin: border-box;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.item__html:hover {
+    transform: scale(1.1);
+    border: 0.5vmin solid var(--naranja);
+}
+
+.item--css:hover{
+    transform: scale(1.1);
+    border: 0.5vmin solid var(--azulOscuro);
+}
+
+.item--js:hover{
+    transform: scale(1.1);
+    border: 0.5vmin solid var(--amarillo);
+}
+
+.item--react:hover{
+    transform: scale(1.1);
+    border: 0.5vmin solid var(--azulClaro);
+}
+
+.item--figma:hover{
+    transform: scale(1.1);
+    border: 0.5vmin solid var(--violet);
+}
+
+.item--github:hover{
+    transform: scale(1.1);
+    border: 0.5vmin solid var(--gris);
+}
+
+.skills__item--img{
+    width: 2rem;
+    height: 2rem;
+    padding-top: 3vmin;
+}
+
+
+.skills__item__texto{
+    font-weight: 700;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+.item__titulo--html{
+    color: var(--naranja);
+    font-weight: 600;
+    border-bottom: 1px solid var(--naranja);
+    padding-bottom: 2vmin;
+    text-transform: uppercase;
+}
+
+.item__titulo--css{
+    color: var(--azulOscuro);
+    font-weight: 600;
+    padding-bottom: 2vmin;
+    border-bottom: 1px solid var(--azulOscuro);
+    text-transform: uppercase;
+}
+
+.item__titulo--js{
+    color: var(--amarillo);
+    font-weight: 600;
+    padding-bottom: 2vmin;
+    border-bottom: 1px solid var(--amarillo);
+    text-transform: uppercase;
+}
+
+.item__titulo--react{
+    color: var(--azulClaro);
+    font-weight: 600;
+    padding-bottom: 2vmin;
+    border-bottom: 1px solid var(--azulClaro);
+    text-transform: uppercase;
+}
+
+.item__titulo--figma{
+    color: var(--violet);
+    font-weight: 600;
+    padding-bottom: 2vmin;
+    border-bottom: 1px solid var(--violet);
+    text-transform: uppercase;
+}
+
+.item__titulo--github{
+    color: var(--gris);
+    font-weight: 600;
+    padding-bottom: 2vmin;
+    border-bottom: 1px solid var(--gris);
+    text-transform: uppercase;
+}
+
+
+/* Estilos para tablets en orientación horizontal */
+@media (min-height: 768px) and (max-height: 1280px) {
+    
+}
+
+/* Estilos para desktop en orientación horizontal */
+@media (min-width: 1025px){
+    .skills__titulo{
+        font-size: 2.6rem;
+    }
+
+    .skills__item{
+        margin: 3vmin 3vmin;
+        padding: 5vmin;
+    }
+}
